@@ -4,13 +4,18 @@
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 100px;
-    background-color: red;
+    background-color: var(--cl-2);
+    /* background-color: red; */
     align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 5px black;
 }
 
 .box {
     display: flex;
     justify-content: center;
+    /* background-color: green; */
+    background-color: var(--cl-2);
 }
 
 .menu {
@@ -18,9 +23,26 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    list-style-type: none;
+}
+
+li {
+    background-color: var(--cl-2);
 }
 
 .logo {
     width: 80px;
     height: auto;
+    background-color: var(--cl-2);
+    /* background-color: yellow; */
 }
+
+.select {
+    /* appearance: none; */
+    border: none;
+    border-bottom: 1px solid rgb(88, 88, 88);
+    background-color: var(--cl-2);
+    width: 60px;
+    outline: none;
+}
+

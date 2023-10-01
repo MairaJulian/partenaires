@@ -20,10 +20,11 @@ const NavBar = () => {
         </div>
         <div className='box'>
             <div>
-                <select>
-                    <option>Español</option>
-                    <option>Frances</option>
-                    <option>Ingles</option>
+                <select className='select'>
+                    <option value="" disabled selected>Idioma</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Frances</option>
+                    <option value="en">Ingles</option>
                 </select>
             </div>
         </div>
