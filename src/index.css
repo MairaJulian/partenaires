@@ -1,11 +1,10 @@
 @import url('styles/Variables.css');
-/* @import url('../src/components/navBar/NavBar.css'); */
 
 * {
   margin: 0;
   padding: 0;
-  background-color: var(--cl-5);
+  background-color: var(--cl-1);
   font-family: var(--ff-1);
   font-size: var(--fs-1);
-  color: var(--cl-6);
+  
 }

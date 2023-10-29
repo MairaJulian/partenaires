@@ -1,0 +1,5 @@
+svg {
+    display: block; /* Para asegurarse de que el elemento svg sea un bloque completo sin márgenes predeterminados. */
+    margin: 0;
+    padding: 0;
+  }

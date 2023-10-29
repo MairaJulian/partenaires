@@ -1,34 +1,34 @@
 import React from 'react'
 import './NavBar.css'
-import logo from '../../assets/images/logo_negro.png'
+import logo from '../../assets/images/logoBlanco.png'
 
 const NavBar = () => {
   return (
-    <nav className='navBar'>
-        <div className='box'>
-            <img src={logo} className='logo'/>
-        </div>
-        <div className='box'>
-            <ul className='menu'>
-                <li>Historia</li>
-                <li>Servicios</li>
-                <li>Patrones en pdf</li>
-                <li>Tu color ideal</li>
-                <li>Blog</li>
-                <li>Contacto</li>
-            </ul>
-        </div>
-        <div className='box'>
-            <div>
-                <select className='select'>
-                    <option value="" disabled selected>Idioma</option>
-                    <option value="es">Español</option>
-                    <option value="fr">Frances</option>
-                    <option value="en">Ingles</option>
-                </select>
+        <nav className='navBar'>
+            <div className='box'>
+                <img src={logo} className='logo'/>
             </div>
-        </div>
-    </nav>
+            <div className='box'>
+                <ul className='menu'>
+                    <li>HISTORIA</li>
+                    <li>SERVICIOS</li>
+                    <li>PATRONES PDF</li>
+                    <li>TU COLOR IDEAL</li>
+                    <li>BLOG</li>
+                    <li>CONTACTO</li>
+                </ul>
+            </div>
+            <div className='box'>
+                <div className='language'>
+                    <select className='select'>
+                        <option className='idioma' value="" disabled selected>IDIOMA</option>
+                        <option value="es">ESPAÑOL</option>
+                        <option value="fr">FRANCÉS</option>
+                        <option value="en">INGLÉS</option>
+                    </select>
+                </div>
+            </div>
+        </nav>
   )
 }
 

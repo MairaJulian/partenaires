@@ -1,16 +1,15 @@
 :root {
-    --ff-1: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    --ff-2: 'Libre Baskerville', serif;
+    --ff-1: 'Gabarito', sans-serif;
 
     --fs-1: 12px;
     --fs-2: 22px;
 
-    --cl-1: #FFF2D8;
-    --cl-2: #EAD7BB;
-    --cl-3: #BCA37F;
-    --cl-4: #113946;
-    --cl-5: #ffffff;
-    --cl-6: #000000;
+    --cl-1: #ffffff;
+    --cl-2: #000000;
+    --cl-3: #D4AF96;
+    --cl-4: #BDBFC1;
+    /* --cl-5: #BCA37F;
+    --cl-6: #113946; */
 
     /* font-family: 'Libre Baskerville', serif; */
     /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
