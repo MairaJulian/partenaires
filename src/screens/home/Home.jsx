@@ -4,6 +4,7 @@ import roTrabajando from '../../assets/images/roTrabajando.jpg'
 import logoNegro from '../../assets/images/logoNegro.png'
 import nombreNegro from '../../assets/images/nombreNegro.png'
 import { useTranslation } from 'react-i18next'
+import Form from '../../components/form/Form'
 
 function Home() {
 
@@ -28,6 +29,7 @@ function Home() {
           <h1>{t("common.accept")}</h1>
           
         </div>
+        <Form/>
         <div className='form'>{t("form.form")}</div>
     </div>
   )
