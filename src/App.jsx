@@ -1,6 +1,6 @@
 import './App.css'
 import NavBar from './components/navBar/NavBar'
-import Svg from './components/svg/Svg'
+import Home from './screens/home/Home'
 
 function App() {
 
@@ -8,9 +8,7 @@ function App() {
     <>
       <div>
         <NavBar/>
-        <Svg/>
-        <p className='p1'>Holaaaa</p>
-        <p>Holaaaa</p>
+        <Home/>
         {/* <BrowserRouter>
         <Navigation />
       </BrowserRouter> */}

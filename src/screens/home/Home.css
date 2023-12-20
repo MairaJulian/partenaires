@@ -1,0 +1,60 @@
+.homeContainer {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.home {
+    background-color: green;
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imageContainer {
+    width: 300px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+.welcomeHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoNegro {
+    width: 100px;
+    height: auto;
+}
+
+.nombreNegro {
+    width: 300px;
+    height: auto;
+}
+
+.sections {
+    background-color: yellow;
+    width: 100%;
+}
+
+.form {
+    background-color: blue;
+    width: 100%;
+}

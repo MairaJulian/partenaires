@@ -1,0 +1,31 @@
+{
+    "test": {
+       "hello":"Salut"
+        },
+    "common": {
+        "accept": "Accepter",
+        "cancel": "Annuler",
+        "confirm": "Confirmer",
+        "exit": "Sortir",
+        "ok": "D'accord"
+    },
+    "navBar": {
+        "history": "HISTOIRE",
+        "services": "PRESTATIONS DE SERVICE",
+        "patterns-in-pdf": "PATRONS EN FORMAT PDF",
+        "your-ideal-color": "VOTRE COULEUR IDÉALE",
+        "blog": "BLOG",
+        "contact": "CONTACT",
+        "language": "LANGAGE",
+        "spanish": "ESPAGNOL",
+        "french": "FRANÇAIS",
+        "english": "ANGLAIS"
+    },
+    "home": {
+        "welcome": "Bienvenue à",
+        "space": "un espace où vous pourrez donner vie à vos idées"
+    },
+    "form": {
+        "form": "formulaire"
+    }
+}

@@ -25,15 +25,23 @@
     list-style-type: none;
 }
 
-li {
+.menu li {
     width: 120px;
-    height: 30px;
+    height: 100%;
+    /* height: 30px; */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--cl-2);
     border: 3px solid var(--cl-1);
     border-radius: 18px;
+    text-align: center;
+}
+
+.menu li:hover {
+    background-color: var(--cl-1);
+    color: var(--cl-2);
+    cursor: pointer;
 }
 
 .logo {
@@ -54,12 +62,15 @@ li {
     border-radius: 18px;
     border: none;
     /* border-bottom: 1px solid rgb(88, 88, 88); */
-    color: var(--cl-1);
+    color: rgb(163, 163, 163);
+    /* color: var(--cl-1); */
     background-color: var(--cl-2);
     width: 120px;
     height: 30px;
     outline: none;
 }
 
-
+/* .idioma {
+    color: rgb(90, 90, 90);
+} */
 

@@ -1,0 +1,32 @@
+{
+    "test": {
+       "hello":"Hello"
+    },
+    "test2":"HELLO 2",
+    "common": {
+        "accept": "Accept",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "exit": "Exit",
+        "ok": "Ok"
+    },
+    "navBar": {
+        "history": "HISTORY",
+        "services": "SERVICES",
+        "patterns-in-pdf": "PATTERS IN PDF",
+        "your-ideal-color": "YOUR IDEAL COLOR",
+        "blog": "BLOG",
+        "contact": "CONTACT",
+        "language": "LANGUAGE",
+        "spanish": "SPANISH",
+        "french": "FRENCH",
+        "english": "ENGLISH"
+    },
+    "home": {
+        "welcome": "Welcome to",
+        "space": "a space where you will be able to give life to your ideas"
+    },
+    "form": {
+        "form": "form"
+    }
+}
