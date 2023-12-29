@@ -12,6 +12,7 @@
     },
     "navBar": {
         "history": "HISTORY",
+        "process": "CREATIVE PROCESS",
         "services": "SERVICES",
         "patterns-in-pdf": "PATTERS IN PDF",
         "your-ideal-color": "YOUR IDEAL COLOR",
@@ -27,6 +28,11 @@
         "space": "a space where you will be able to give life to your ideas"
     },
     "form": {
-        "form": "form"
+        "form": "form",
+        "title": "Contact",
+        "name": "Name and surname",
+        "email": "Email",
+        "message": "Write your message...",
+        "button-title": "Send"
     }
 }

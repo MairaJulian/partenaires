@@ -1,0 +1,7 @@
+.myButton {
+    border: none;
+    background-color: var(--cl-4);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,17 @@
+.labelInput {
+    width: 100%;
+    background-color: transparent;
+}
+
+.myInput {
+    width: 100%;
+    border: none;
+    border-radius: 18px;
+    background-color: var(--cl-4);
+}
+
+.myInput::placeholder {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+}

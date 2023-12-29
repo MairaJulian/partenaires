@@ -21,6 +21,7 @@ const NavBar = () => {
             <div className='box'>
                 <ul className='menu'>
                     <li>{t("navBar.history")}</li>
+                    <li>{t("navBar.process")}</li>
                     <li>{t("navBar.services")}</li>
                     <li>{t("navBar.patterns-in-pdf")}</li>
                     <li>{t("navBar.your-ideal-color")}</li>
